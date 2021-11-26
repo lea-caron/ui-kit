@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Raleway:wght@100&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/divider.css");
+@import url("components/navbar.css");
+
+html{
+	scroll-behaviour: smooth;
+}
+
+body{
+	background-image: url("../images/background.jpg");
+	margin: 0;
+	font-family: 'Amatic SC', cursive;
+    font-size: 23px;
+    color: #2C394B;
+    text-align : center;
+}
+h1,h2,h3{
+	font-family:'Amatic SC', cursive;
+	font-weight:bold;
+}
+h1{
+	color: white;
+}
+a{
+	text-decoration :none
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
